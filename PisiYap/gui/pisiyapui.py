@@ -877,7 +877,7 @@ class Ui_Pisiyap(object):
         self.cmakeTools.setPalette(palette)
         self.cmakeTools.setObjectName("cmakeTools")
         self.gridLayout_19.addWidget(self.cmakeTools, 0, 1, 1, 1)
-        self.kdeTools = QtGui.QRadioButton(self.tab_5)
+        self.kde4Tools = QtGui.QRadioButton(self.tab_5)
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -906,13 +906,13 @@ class Ui_Pisiyap(object):
         brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.ButtonText, brush)
-        self.kdeTools.setPalette(palette)
-        self.kdeTools.setObjectName("kdeTools")
-        self.gridLayout_19.addWidget(self.kdeTools, 0, 2, 1, 1)
+        self.kde4Tools.setPalette(palette)
+        self.kde4Tools.setObjectName("kde4Tools")
+        self.gridLayout_19.addWidget(self.kde4Tools, 0, 2, 1, 1)
         self.gridLayout_21.addLayout(self.gridLayout_19, 0, 0, 1, 1)
         self.gridLayout_20 = QtGui.QGridLayout()
         self.gridLayout_20.setObjectName("gridLayout_20")
-        self.perlTools = QtGui.QRadioButton(self.tab_5)
+        self.qt4Tools = QtGui.QRadioButton(self.tab_5)
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -941,9 +941,9 @@ class Ui_Pisiyap(object):
         brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.ButtonText, brush)
-        self.perlTools.setPalette(palette)
-        self.perlTools.setObjectName("perlTools")
-        self.gridLayout_20.addWidget(self.perlTools, 0, 0, 1, 1)
+        self.qt4Tools.setPalette(palette)
+        self.qt4Tools.setObjectName("qt4Tools")
+        self.gridLayout_20.addWidget(self.qt4Tools, 0, 0, 1, 1)
         self.pyTools = QtGui.QRadioButton(self.tab_5)
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
@@ -1500,18 +1500,18 @@ class Ui_Pisiyap(object):
 "</style></head><body style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Select this option if the package is built with cmake tools</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cmakeTools.setText(QtGui.QApplication.translate("Pisiyap", "CMake Tools", None, QtGui.QApplication.UnicodeUTF8))
-        self.kdeTools.setToolTip(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.kde4Tools.setToolTip(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Select this option if the package is built with kde tools</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.kdeTools.setText(QtGui.QApplication.translate("Pisiyap", "KDE Tools", None, QtGui.QApplication.UnicodeUTF8))
-        self.perlTools.setToolTip(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Select this option if the package is built with kde4 tools</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.kde4Tools.setText(QtGui.QApplication.translate("Pisiyap", "KDE Tools", None, QtGui.QApplication.UnicodeUTF8))
+        self.qt4Tools.setToolTip(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Select this option if the package is built with perl tools</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.perlTools.setText(QtGui.QApplication.translate("Pisiyap", "Perl Tools", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Select this option if the package is built with qt4 tools</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.qt4Tools.setText(QtGui.QApplication.translate("Pisiyap", "Perl Tools", None, QtGui.QApplication.UnicodeUTF8))
         self.pyTools.setToolTip(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
