@@ -13,8 +13,8 @@ translationXml = u'''<?xml version="1.0" ?>
 <PISI>
     <Source>
         <Name>%(packageName)s</Name>
-        <Summary xml:lang=""></Summary>
-        <Description xml:lang=""></Description>
+        <Summary xml:lang="tr">%(summary)s</Summary>
+        <Description xml:lang="tr">%(description)s</Description>
     </Source>
 </PISI>
 '''
