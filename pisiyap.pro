@@ -1,0 +1,11 @@
+FORMS += ui/pisiyap.ui
+FORMS += ui/warning.ui
+FORMS += ui/finished.ui
+SOURCES += PisiYap/pisiyap.py
+TRANSLATIONS += lang/pisiyap_de.ts
+TRANSLATIONS += lang/pisiyap_es.ts
+TRANSLATIONS += lang/pisiyap_fr.ts
+TRANSLATIONS += lang/pisiyap_it.ts
+TRANSLATIONS += lang/pisiyap_nl.ts
+TRANSLATIONS += lang/pisiyap_pl.ts
+TRANSLATIONS += lang/pisiyap_tr.ts

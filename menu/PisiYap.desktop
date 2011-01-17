@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Encoding=UTF-8
+Name=PisiYap
+Name[tr]=PisiYap
+GenericName=Pisi Source File Creator
+GenericName[tr]=PiSi Kaynak Dosyası Üreticisi
+Icon=pisiyap
+Exec=pisiyap
+Terminal=false
+StartupNotify=false
+Categories=Development;IDE;

@@ -1,0 +1,26 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# Please read the docs/COPYING file.
+#
+
+from PyQt4 import QtGui, QtCore
+from PisiYap.pisiyap import PisiYap
+
+if __name__ == "__main__":
+    import sys
+    path = "/usr/lib/python2.5/site-packages/PisiYap"
+    app = QtGui.QApplication(sys.argv)
+    locale = QtCore.QLocale.system().name()
+    pisiyapTranslator = QtCore.QTranslator()
+    if pisiyapTranslator.load(path + "/lang/pisiyap_" + locale, ":/"):
+        app.installTranslator(pisiyapTranslator)
+    PisiYap = PisiYap()
+    PisiYap.show()
+    sys.exit(app.exec_())
