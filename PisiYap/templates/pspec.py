@@ -26,15 +26,16 @@ pspecXml = u'''<?xml version="1.0" ?>
         <Archive sha1sum="%(sha1Sum)s" type="%(archiveType)s">%(archiveAddr)s</Archive>
         <!--
         <BuildDependencies>
-            <Dependency versionFrom="">Dep1</Dependency>
-            <Dependency versionFrom="">Dep2</Dependency>
-            <Dependency versionFrom="">Dep3</Dependency>
-            <Dependency versionFrom="">Dep4</Dependency>
+            <Dependency>Dep1-devel</Dependency>
+            <Dependency>Dep2-devel</Dependency>
+            <Dependency>Dep3-devel</Dependency>
+            <Dependency versionFrom="">Dep4-devel</Dependency>
         </BuildDependencies>
         -->
         <!--
         <Patches>
             <Patch>%(packageName)s.patch</Patch>
+            <Patch level="1">%(packageName)s.patch</Patch>
         </Patches>
         -->
     </Source>
@@ -43,9 +44,9 @@ pspecXml = u'''<?xml version="1.0" ?>
         <Name>%(packageName)s</Name>
         <!--
         <RuntimeDependencies>
-            <Dependency versionFrom="">Dep1</Dependency>
-            <Dependency versionFrom="">Dep2</Dependency>
-            <Dependency versionFrom="">Dep3</Dependency>
+            <Dependency>Dep1</Dependency>
+            <Dependency>Dep2</Dependency>
+            <Dependency>Dep3</Dependency>
             <Dependency versionFrom="">Dep4</Dependency>
         </RuntimeDependencies>
         -->
@@ -57,6 +58,7 @@ pspecXml = u'''<?xml version="1.0" ?>
             <Path fileType="library">/usr/lib</Path>
             <Path fileType="header">/usr/include</Path>
             <Path fileType="data">/usr/share</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
             <Path fileType="man">/usr/share/man</Path>
             <Path fileType="info">/usr/share/info</Path>
             <Path fileType="doc">/usr/share/doc</Path>
@@ -69,9 +71,9 @@ pspecXml = u'''<?xml version="1.0" ?>
         </AdditionalFiles>
         -->
         <!--
-       <Provides>
-             <COMAR script="package.py">System.Package</COMAR>
-             <COMAR script="service.py">System.Service</COMAR>
+        <Provides>
+            <COMAR script="package.py">System.Package</COMAR>
+            <COMAR script="service.py">System.Service</COMAR>
         </Provides>
         -->
     </Package>

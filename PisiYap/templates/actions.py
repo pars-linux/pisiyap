@@ -26,9 +26,9 @@ def build():
     autotools.make()
 
 def install():
-    autotools.install()
+    autotools.rawInstall("DESTDIR=%s" % get.installDIR())
 
-    pisitools.dodoc("AUTHORS", "ChangeLog", "COPYING", "NEWS", "README")
+    pisitools.dodoc("AUTHORS", "BUGS", "ChangeLog", "COPYING", "NEWS", "README")
 '''
 
 cmakeTools = u'''#!/usr/bin/python
@@ -39,59 +39,60 @@ cmakeTools = u'''#!/usr/bin/python
 
 from pisi.actionsapi import cmaketools
 from pisi.actionsapi import pisitools
+from pisi.actionsapi import get
 
 def setup():
-    cmaketools.configure()
+    cmaketools.configure("-DCMAKE_BUILD_TYPE=release", installPrefix="/usr")
 
 def build():
     cmaketools.make()
 
 def install():
-    cmaketools.install()
+    cmaketools.rawInstall("DESTDIR=%s" % get.installDIR())
 
-    pisitools.dodoc("AUTHORS", "ChangeLog", "COPYING", "NEWS", "README")
+    pisitools.dodoc("AUTHORS", "BUGS", "ChangeLog", "COPYING", "NEWS", "README")
 '''
 
-kdeTools = u'''#!/usr/bin/python
+kde4Tools = u'''#!/usr/bin/python
 # -*- coding: utf-8 -*-
 #
 # Licensed under the GNU General Public License, version 3.
 # See the file http://www.gnu.org/copyleft/gpl.txt
 
-from pisi.actionsapi import kde
 from pisi.actionsapi import pisitools
+from pisi.actionsapi import kde4
 
 def setup():
-    kde.configure()
+    kde4.configure()
 
 def build():
-    kde.make()
+    kde4.make()
 
 def install():
-    kde.install()
+    kde4.install()
 
-    pisitools.dodoc("AUTHORS", "ChangeLog", "COPYING", "NEWS", "README")
+    pisitools.dodoc("AUTHORS", "BUGS", "ChangeLog", "COPYING", "NEWS", "README")
 '''
 
-perlTools = u'''#!/usr/bin/python
+qt4Tools = u'''#!/usr/bin/python
 # -*- coding: utf-8 -*-
 #
 # Licensed under the GNU General Public License, version 3.
 # See the file http://www.gnu.org/copyleft/gpl.txt
 
-from pisi.actionsapi import perlmodules
 from pisi.actionsapi import pisitools
+from pisi.actionsapi import qt4
 
 def setup():
-    perlmodules.configure()
+    qt4.configure()
 
 def build():
-    perlmodules.make()
+    qt4.make()
 
 def install():
-    perlmodules.install()
+    qt4.install()
 
-    pisitools.dodoc("AUTHORS", "ChangeLog", "COPYING", "NEWS", "README")
+    pisitools.dodoc("AUTHORS", "BUGS", "ChangeLog", "COPYING", "NEWS", "README")
 '''
 
 pyTools = u'''#!/usr/bin/python
@@ -109,7 +110,7 @@ def build():
 def install():
     pythonmodules.install()
 
-    pisitools.dodoc("AUTHORS", "ChangeLog", "COPYING", "NEWS", "README")
+    pisitools.dodoc("AUTHORS", "BUGS", "ChangeLog", "COPYING", "NEWS", "README")
 '''
 
 sconsTools = u'''#!/usr/bin/python
@@ -118,8 +119,8 @@ sconsTools = u'''#!/usr/bin/python
 # Licensed under the GNU General Public License, version 3.
 # See the file http://www.gnu.org/copyleft/gpl.txt
 
-from pisi.actionsapi import scons
 from pisi.actionsapi import pisitools
+from pisi.actionsapi import scons
 
 def setup():
     scons.configure()
@@ -130,5 +131,5 @@ def build():
 def install():
     scons.install()
 
-    pisitools.dodoc("AUTHORS", "ChangeLog", "COPYING", "NEWS", "README")
+    pisitools.dodoc("AUTHORS", "BUGS", "ChangeLog", "COPYING", "NEWS", "README")
 '''
