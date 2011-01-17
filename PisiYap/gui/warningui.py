@@ -2,16 +2,21 @@
 
 # Form implementation generated from reading ui file 'warning.ui'
 #
-# Created: Sun Feb  1 19:14:56 2009
-#      by: PyQt4 UI code generator 4.4.4
+# Created: Mon Jan 17 23:54:12 2011
+#      by: PyQt4 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
 
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    _fromUtf8 = lambda s: s
+
 class Ui_Warning(object):
     def setupUi(self, Warning):
-        Warning.setObjectName("Warning")
+        Warning.setObjectName(_fromUtf8("Warning"))
         Warning.setWindowModality(QtCore.Qt.WindowModal)
         Warning.resize(540, 137)
         palette = QtGui.QPalette()
@@ -21,10 +26,10 @@ class Ui_Warning(object):
         brush = QtGui.QBrush(QtGui.QColor(170, 174, 182))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Text, brush)
-        brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
+        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
+        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Window, brush)
         brush = QtGui.QBrush(QtGui.QColor(170, 174, 182))
@@ -33,10 +38,10 @@ class Ui_Warning(object):
         brush = QtGui.QBrush(QtGui.QColor(170, 174, 182))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Text, brush)
-        brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
+        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
+        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Window, brush)
         brush = QtGui.QBrush(QtGui.QColor(110, 111, 114))
@@ -45,26 +50,27 @@ class Ui_Warning(object):
         brush = QtGui.QBrush(QtGui.QColor(110, 111, 114))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Text, brush)
-        brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
+        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(79, 81, 85))
+        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Window, brush)
         Warning.setPalette(palette)
         font = QtGui.QFont()
-        font.setFamily("DejaVu Sans")
+        font.setFamily(_fromUtf8("DejaVu Sans"))
         Warning.setFont(font)
         self.gridLayout = QtGui.QGridLayout(Warning)
-        self.gridLayout.setObjectName("gridLayout")
+        self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
         self.label = QtGui.QLabel(Warning)
         font = QtGui.QFont()
         font.setWeight(75)
         font.setBold(True)
         self.label.setFont(font)
+        self.label.setStyleSheet(_fromUtf8("color: rgb(0, 0, 0);"))
         self.label.setTextFormat(QtCore.Qt.PlainText)
         self.label.setAlignment(QtCore.Qt.AlignCenter)
-        self.label.setObjectName("label")
+        self.label.setObjectName(_fromUtf8("label"))
         self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
         self.warnings = QtGui.QLabel(Warning)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Expanding)
@@ -94,26 +100,26 @@ class Ui_Warning(object):
         self.warnings.setPalette(palette)
         font = QtGui.QFont()
         font.setWeight(50)
-        font.setItalic(False)
         font.setBold(False)
         self.warnings.setFont(font)
         self.warnings.setTextFormat(QtCore.Qt.PlainText)
         self.warnings.setScaledContents(True)
         self.warnings.setAlignment(QtCore.Qt.AlignCenter)
         self.warnings.setWordWrap(True)
-        self.warnings.setObjectName("warnings")
+        self.warnings.setObjectName(_fromUtf8("warnings"))
         self.gridLayout.addWidget(self.warnings, 1, 0, 1, 1)
         self.label_2 = QtGui.QLabel(Warning)
         font = QtGui.QFont()
         font.setWeight(75)
         font.setBold(True)
         self.label_2.setFont(font)
+        self.label_2.setStyleSheet(_fromUtf8("color: rgb(0, 0, 0);"))
         self.label_2.setTextFormat(QtCore.Qt.PlainText)
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_2.setObjectName("label_2")
+        self.label_2.setObjectName(_fromUtf8("label_2"))
         self.gridLayout.addWidget(self.label_2, 2, 0, 1, 1)
         self.horizontalLayout = QtGui.QHBoxLayout()
-        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
         spacerItem = QtGui.QSpacerItem(235, 25, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.horizontalLayout.addItem(spacerItem)
         self.pushButton = QtGui.QPushButton(Warning)
@@ -122,14 +128,14 @@ class Ui_Warning(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
         self.pushButton.setSizePolicy(sizePolicy)
-        self.pushButton.setObjectName("pushButton")
+        self.pushButton.setObjectName(_fromUtf8("pushButton"))
         self.horizontalLayout.addWidget(self.pushButton)
         spacerItem1 = QtGui.QSpacerItem(232, 25, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.horizontalLayout.addItem(spacerItem1)
         self.gridLayout.addLayout(self.horizontalLayout, 3, 0, 1, 1)
 
         self.retranslateUi(Warning)
-        QtCore.QObject.connect(self.pushButton, QtCore.SIGNAL("clicked()"), Warning.close)
+        QtCore.QObject.connect(self.pushButton, QtCore.SIGNAL(_fromUtf8("clicked()")), Warning.close)
         QtCore.QMetaObject.connectSlotsByName(Warning)
 
     def retranslateUi(self, Warning):

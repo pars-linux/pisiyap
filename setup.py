@@ -15,22 +15,21 @@ from os import listdir, system
 langs = []
 for l in listdir('lang'):
     if l.endswith('ts'):
-        system('lrelease-qt4 lang/%s' % l)
+        system('lrelease lang/%s' % l)
         langs.append(('lang/%s' % l).replace('.ts', '.qm'))
 
-datas = [('kde/3.5/share/apps/konqueror/servicemenus', ['menu/PisiYap-kde3.desktop']),\
-         ('kde/4/share/kde4/services/ServiceMenus', ['menu/PisiYap-kde4.desktop']),\
+datas = [('share/kde4/services/ServiceMenus', ['menu/PisiYap-kde4.desktop']),\
          ('share/applications', ['menu/PisiYap.desktop']),\
          ('share/icons/hicolor/scalable/apps', ['icons/pisiyap.svg']),\
-         ('lib/python2.5/site-packages/PisiYap/lang', langs),\
+         ('lib/python2.7/site-packages/PisiYap/lang', langs),\
          ('share/pixmaps',      ['icons/pisiyap.png'])]
 
-setup(name = "PisiPap",
-      version = "0.1",
+setup(name = "PiSiYap",
+      version = "0.2",
       description = "PiSi Source Files Creator.",
-      author = "Murat Şenel",
-      author_email = "muratasenel@gmail.com",
-      url = "http://www.muratsenel.net/pisiyap",
+      author = "Anıl Özbek",
+      author_email = "ozbekanil@gmail.com",
+      url = "https://code.google.com/p/pisiyap",
       packages = ["PisiYap", "PisiYap/templates", "PisiYap/gui"],
       data_files = datas,
       scripts = ['pisiyap']

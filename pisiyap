@@ -15,7 +15,7 @@ from PisiYap.pisiyap import PisiYap
 
 if __name__ == "__main__":
     import sys
-    path = "/usr/lib/python2.5/site-packages/PisiYap"
+    path = "/usr/lib/python2.7/site-packages/PisiYap"
     app = QtGui.QApplication(sys.argv)
     locale = QtCore.QLocale.system().name()
     pisiyapTranslator = QtCore.QTranslator()

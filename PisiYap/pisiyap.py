@@ -277,10 +277,10 @@ class PisiYap(QtGui.QMainWindow):
                 actionspy = actions.autoTools
             elif self.ui.cmakeTools.isChecked():
                 actionspy = actions.cmakeTools
-            elif self.ui.kdeTools.isChecked():
-                actionspy = actions.kdeTools
-            elif self.ui.perlTools.isChecked():
-                actionspy = actions.perlTools
+            elif self.ui.kde4Tools.isChecked():
+                actionspy = actions.kde4Tools
+            elif self.ui.qt4Tools.isChecked():
+                actionspy = actions.qt4Tools
             elif self.ui.pyTools.isChecked():
                 actionspy = actions.pyTools
             elif self.ui.sconsTools.isChecked():
