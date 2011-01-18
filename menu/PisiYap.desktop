@@ -2,8 +2,8 @@
 Type=Application
 Version=1.0
 Encoding=UTF-8
-Name=PisiYap
-Name[tr]=PisiYap
+Name=PiSiYap
+Name[tr]=PiSiYap
 GenericName=Pisi Source File Creator
 GenericName[tr]=PiSi Kaynak Dosyası Üreticisi
 Icon=pisiyap
