@@ -1,0 +1,20 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,text/x-python
+Actions=ApiHelp
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=Paketle
+Comment=Pardus Action API
+Icon=dialog-information
+Author=maidis
+
+[Desktop Action ApiHelp]
+Name=Pardus:Actions
+Name[tr]=Pardus:ActionsAPI
+Icon=dialog-information
+# if then else with locale for http://en.pardus-wiki.org/Actions_API
+# echo is just a hack
+Exec=echo %f && xdg-open http://tr.pardus-wiki.org/Pardus:ActionsAPI

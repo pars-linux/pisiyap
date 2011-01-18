@@ -1,0 +1,26 @@
+# Author: Anıl Özbek (aka maidis)
+# Servicemenu: Paketle
+# Version: 0.1
+# License: GPL 3.0
+# Paketle (Pack) is a service menu which runs some console commands to packing as PiSi for you :) and much more
+
+
+[Desktop Entry]
+Encoding=UTF8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/x-shellscript
+Actions=Configure
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=Paketle
+Comment=pack from pspec.xml
+Icon=configure
+Author=maidis
+
+[Desktop Action Configure]
+Type=Application
+Name=Show Configure Help
+Name[tr]=Yapılandırma Yardımını Göster
+Exec=%d/configure --help > /tmp/configure.txt && kdialog --textbox /tmp/configure.txt 600 400 && rm -f /tmp/configure.txt
+Icon=configure

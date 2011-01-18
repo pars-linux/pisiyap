@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/x-executable
+Actions=ControlWithLdd
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=Paketle
+Comment=pack from pspec.xml
+Icon=application-x-sharedlib
+Author=maidis
+
+[Desktop Action ControlWithLdd]
+Type=Application
+Name=Control Unused Direct Dependencies
+Name[tr]=Kullanılmayan Doğrudan Bağımlılıkları Kontrol Et
+Exec=konsole --noclose -e ldd -u -r %F
+Icon=application-x-sharedlib

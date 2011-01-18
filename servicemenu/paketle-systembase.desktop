@@ -1,0 +1,18 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/xml
+Actions=SystemBase
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=Paketle
+Comment=Pardus Action API
+Icon=dialog-information
+Author=maidis
+
+[Desktop Action SystemBase]
+Name=Show System Base / Devel Packages
+Name[tr]=System Base / Devel Paketlerini Göster
+Icon=dialog-information
+Exec=echo %f && xdg-open http://svn.pardus.org.tr/pardus/2011/devel/system/

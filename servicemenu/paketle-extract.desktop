@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/x-pisi
+Actions=UnPisi
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=Paketle
+Comment=pack from pspec.xml
+Icon=document-preview-archive
+Author=maidis
+
+[Desktop Action UnPisi]
+Type=Application
+Name=Extract PiSi Package
+Name[tr]=PiSi Paketini Çıkart
+Exec=cd %d && unpisi %u
+Icon=document-preview-archive

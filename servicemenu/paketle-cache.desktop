@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/x-bzip-compressed-tar,application/x-compressed-tar,application/x-gzip,application/x-tar,application/x-tgz,application/x-tbz,application/zip,application/x-bzip,application/x-rar,application/x-tarz,application/x-archive,application/x-bzip
+Actions=CopyToPiSiCache
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=Paketle
+Comment=pack from pspec.xml
+Icon=folder-tar
+Author=maidis
+
+[Desktop Action CopyToPiSiCache]
+Name=Copy to PiSi Cache Directory
+Name[tr]=PiSi Önbellek Dizinine Kopyala
+Icon=folder-tar
+# is this so hardcoded?
+Exec=kdesu cp %f /var/cache/pisi/archives

@@ -1,0 +1,26 @@
+# Author: Anıl Özbek (aka maidis)
+# Servicemenu: sha1sum panoya
+# Version: 0.1
+# License: GPL 3.0
+# sha1sum panoya (sha1sum to clipboard) is a service menu which copy sha1sum command output to clipboard
+
+[Desktop Entry]
+Encoding=UTF8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,all/allfiles
+Actions=Sha1ToC
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=sha1sum panoya
+Comment=sha1sum to clipboard
+Icon=flag-yellow
+Author=maidis
+
+[Desktop Action Sha1ToC]
+Type=Application
+Name=Sha1sum to Clipboard
+Name[tr]=Sha1sum Panoya
+#Exec=sha1sum %f | cut -f1 -d':' -d' ' | xclip -selection c
+Exec=sha1sum %f | cut -c 1-40 | xargs -L1 qdbus org.kde.klipper /klipper setClipboardContents
+Icon=flag-yellow

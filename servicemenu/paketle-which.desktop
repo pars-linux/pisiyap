@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,all/allfiles
+Actions=WhichPisi
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=Paketle
+Comment=pack from pspec.xml
+Icon=document-preview
+Author=maidis
+
+[Desktop Action WhichPisi]
+Type=Application
+Name=This File Belongs to...
+Name[tr]=Bu Dosyanın Ait Olduğu Paket...
+Exec=kdialog --title `echo "%f"` --msgbox "`pisi sf -q "%u"`"
+Icon=document-preview

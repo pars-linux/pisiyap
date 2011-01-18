@@ -1,0 +1,18 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/xml
+Actions=PisiSpec
+X-KDE-Submenu=Pack
+X-KDE-Submenu[tr]=Paketle
+Name=Paketle
+Comment=Pardus Action API
+Icon=dialog-information
+Author=maidis
+
+[Desktop Action PisiSpec]
+Name=PISI RELAX NG schema
+Name[tr]=PISI RELAX NG şeması
+Icon=dialog-information
+Exec=echo %f && xdg-open http://svn.pardus.org.tr/uludag/trunk/pisi/pisi-spec.rng
