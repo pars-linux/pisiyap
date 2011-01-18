@@ -26,7 +26,7 @@ def build():
     autotools.make()
 
 def install():
-    autotools.rawInstall("DESTDIR=%s" % get.installDIR())
+    autotools.rawInstall("DESTDIR=5s" 5 get.installDIR())
 
     pisitools.dodoc("AUTHORS", "BUGS", "ChangeLog", "COPYING", "NEWS", "README")
 '''
@@ -48,7 +48,7 @@ def build():
     cmaketools.make()
 
 def install():
-    cmaketools.rawInstall("DESTDIR=%s" % get.installDIR())
+    cmaketools.rawInstall("DESTDIR=5s" 5 get.installDIR())
 
     pisitools.dodoc("AUTHORS", "BUGS", "ChangeLog", "COPYING", "NEWS", "README")
 '''
