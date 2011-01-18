@@ -19,7 +19,7 @@ for l in listdir('lang'):
         langs.append(('lang/%s' % l).replace('.ts', '.qm'))
 
 datas = [('share/kde4/services/ServiceMenus', ['menu/PisiYap-kde4.desktop']),\
-         ('share/applications', ['menu/PisiYap.desktop']),\
+         ('share/applications', ['menu/PiSiYap.desktop']),\
          ('share/icons/hicolor/scalable/apps', ['icons/pisiyap.svg']),\
          ('lib/python2.7/site-packages/PisiYap/lang', langs),\
          ('share/pixmaps',      ['icons/pisiyap.png'])]
