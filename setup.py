@@ -11,6 +11,7 @@
 
 from distutils.core import setup
 from os import listdir, system
+import glob
 
 langs = []
 for l in listdir('lang'):
@@ -18,7 +19,7 @@ for l in listdir('lang'):
         system('lrelease lang/%s' % l)
         langs.append(('lang/%s' % l).replace('.ts', '.qm'))
 
-datas = [('share/kde4/services/ServiceMenus', ['menu/PisiYap-kde4.desktop']),\
+datas = [('share/kde4/services/ServiceMenus', glob.glob('servicemenu/*.desktop')),\
          ('share/applications', ['menu/PiSiYap.desktop']),\
          ('share/icons/hicolor/scalable/apps', ['icons/pisiyap.svg']),\
          ('lib/python2.7/site-packages/PisiYap/lang', langs),\
