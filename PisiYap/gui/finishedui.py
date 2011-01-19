@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'finished.ui'
 #
-# Created: Mon Jan 17 23:54:08 2011
+# Created: Wed Jan 19 12:52:24 2011
 #      by: PyQt4 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -19,47 +19,7 @@ class Ui_FinishDialog(object):
         FinishDialog.setObjectName(_fromUtf8("FinishDialog"))
         FinishDialog.setWindowModality(QtCore.Qt.WindowModal)
         FinishDialog.resize(285, 85)
-        palette = QtGui.QPalette()
-        brush = QtGui.QBrush(QtGui.QColor(209, 214, 224))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(209, 214, 224))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Text, brush)
-        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Window, brush)
-        brush = QtGui.QBrush(QtGui.QColor(209, 214, 224))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(209, 214, 224))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Text, brush)
-        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Window, brush)
-        brush = QtGui.QBrush(QtGui.QColor(110, 111, 114))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(110, 111, 114))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Text, brush)
-        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(223, 220, 218))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Window, brush)
-        FinishDialog.setPalette(palette)
-        font = QtGui.QFont()
-        font.setFamily(_fromUtf8("DejaVu Sans"))
-        FinishDialog.setFont(font)
+        FinishDialog.setStyleSheet(_fromUtf8(""))
         self.gridLayout = QtGui.QGridLayout(FinishDialog)
         self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
         self.label = QtGui.QLabel(FinishDialog)
@@ -67,7 +27,7 @@ class Ui_FinishDialog(object):
         font.setWeight(75)
         font.setBold(True)
         self.label.setFont(font)
-        self.label.setStyleSheet(_fromUtf8("color: rgb(0, 0, 0);"))
+        self.label.setStyleSheet(_fromUtf8(""))
         self.label.setTextFormat(QtCore.Qt.PlainText)
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName(_fromUtf8("label"))
@@ -93,7 +53,7 @@ class Ui_FinishDialog(object):
         QtCore.QMetaObject.connectSlotsByName(FinishDialog)
 
     def retranslateUi(self, FinishDialog):
-        FinishDialog.setWindowTitle(QtGui.QApplication.translate("FinishDialog", "PisiYap - Finished!", None, QtGui.QApplication.UnicodeUTF8))
+        FinishDialog.setWindowTitle(QtGui.QApplication.translate("FinishDialog", "PiSiYap - Finished!", None, QtGui.QApplication.UnicodeUTF8))
         self.label.setText(QtGui.QApplication.translate("FinishDialog", "PiSi source files successfully created.", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton.setText(QtGui.QApplication.translate("FinishDialog", "Ok", None, QtGui.QApplication.UnicodeUTF8))
 

@@ -131,7 +131,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="pisiyap.ui" line="203"/>
         <source>PisiYap - PiSi Source File Builder</source>
-        <translation type="obsolete">PisiYap - PiSi Kaynak Dosya İnşası</translation>
+        <translation type="obsolete">PiSiYap - PiSi Kaynak Dosya İnşası</translation>
     </message>
     <message>
         <location filename="ui/pisiyap.ui" line="359"/>
