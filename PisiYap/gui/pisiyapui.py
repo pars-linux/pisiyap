@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'pisiyap.ui'
 #
-# Created: Sat Jan 29 00:25:10 2011
+# Created: Sat Jan 29 00:30:09 2011
 #      by: PyQt4 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -911,7 +911,7 @@ class Ui_Pisiyap(object):
         self.textBrowser.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
         self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
         self.gridLayout_27.addWidget(self.textBrowser, 1, 0, 1, 1)
-        self.pisiyapTab.addTab(self.tab_7, _fromUtf8(""))
+        self.pisiyapTab.addTab(self.tab_7, icon, _fromUtf8(""))
         self.gridLayout_21.addWidget(self.pisiyapTab, 0, 0, 1, 1)
         Pisiyap.setCentralWidget(self.centralwidget)
 

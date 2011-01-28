@@ -2120,6 +2120,10 @@ p, li { white-space: pre-wrap; }
        </layout>
       </widget>
       <widget class="QWidget" name="tab_7">
+       <attribute name="icon">
+        <iconset resource="../icons/pisiyapicon.qrc">
+         <normaloff>:/pisiyap.svg</normaloff>:/pisiyap.svg</iconset>
+       </attribute>
        <attribute name="title">
         <string>About</string>
        </attribute>
