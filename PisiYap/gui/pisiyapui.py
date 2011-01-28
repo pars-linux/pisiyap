@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'pisiyap.ui'
 #
-# Created: Thu Jan 27 23:20:29 2011
+# Created: Fri Jan 28 18:42:16 2011
 #      by: PyQt4 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -826,8 +826,6 @@ class Ui_Pisiyap(object):
         self.gridLayout_27.setObjectName(_fromUtf8("gridLayout_27"))
         self.gridLayout_26 = QtGui.QGridLayout()
         self.gridLayout_26.setObjectName(_fromUtf8("gridLayout_26"))
-        spacerItem36 = QtGui.QSpacerItem(108, 20, QtGui.QSizePolicy.Fixed, QtGui.QSizePolicy.Minimum)
-        self.gridLayout_26.addItem(spacerItem36, 0, 0, 1, 1)
         self.label_16 = QtGui.QLabel(self.tab_7)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Fixed, QtGui.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
@@ -835,7 +833,7 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.label_16.sizePolicy().hasHeightForWidth())
         self.label_16.setSizePolicy(sizePolicy)
         self.label_16.setObjectName(_fromUtf8("label_16"))
-        self.gridLayout_26.addWidget(self.label_16, 0, 1, 1, 1)
+        self.gridLayout_26.addWidget(self.label_16, 0, 0, 1, 1)
         self.label_17 = QtGui.QLabel(self.tab_7)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Fixed, QtGui.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
@@ -843,9 +841,7 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.label_17.sizePolicy().hasHeightForWidth())
         self.label_17.setSizePolicy(sizePolicy)
         self.label_17.setObjectName(_fromUtf8("label_17"))
-        self.gridLayout_26.addWidget(self.label_17, 0, 3, 1, 1)
-        spacerItem37 = QtGui.QSpacerItem(118, 20, QtGui.QSizePolicy.Fixed, QtGui.QSizePolicy.Minimum)
-        self.gridLayout_26.addItem(spacerItem37, 0, 4, 1, 1)
+        self.gridLayout_26.addWidget(self.label_17, 0, 2, 1, 1)
         self.label_11 = QtGui.QLabel(self.tab_7)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Fixed, QtGui.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
@@ -853,13 +849,12 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.label_11.sizePolicy().hasHeightForWidth())
         self.label_11.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Serif"))
         font.setPointSize(33)
         font.setWeight(75)
         font.setBold(True)
         self.label_11.setFont(font)
         self.label_11.setObjectName(_fromUtf8("label_11"))
-        self.gridLayout_26.addWidget(self.label_11, 0, 2, 1, 1)
+        self.gridLayout_26.addWidget(self.label_11, 0, 1, 1, 1)
         self.gridLayout_27.addLayout(self.gridLayout_26, 0, 0, 1, 1)
         self.textBrowser = QtGui.QTextBrowser(self.tab_7)
         font = QtGui.QFont()
@@ -1196,8 +1191,8 @@ class Ui_Pisiyap(object):
         self.label_11.setText(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Serif\'; font-size:33pt; font-weight:600; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'pardus\'; font-weight:400;\">PiSiYap</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"</style></head><body style=\" font-family:\'Droid Sans\'; font-size:33pt; font-weight:600; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">PiSiYap</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.textBrowser.setHtml(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
