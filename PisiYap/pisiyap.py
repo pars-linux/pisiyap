@@ -287,7 +287,7 @@ class PisiYap(QtGui.QMainWindow):
                 actionspy = actions.sconsTools
 
             actionsPy = file(os.path.join(packageDir, 'actions.py'), 'w')
-            actionsPy.write(actionspy % resources)
+            actionsPy.write(actionspy)
             actionsPy.close()
 
             translationsXml = file(os.path.join(packageDir, 'translations.xml'), 'w')
