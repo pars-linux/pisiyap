@@ -22,8 +22,7 @@ for l in listdir('lang'):
 datas = [('share/kde4/services/ServiceMenus', glob.glob('servicemenu/*.desktop')),\
          ('share/applications', ['menu/PiSiYap.desktop']),\
          ('share/icons/hicolor/scalable/apps', ['icons/pisiyap.svg']),\
-         ('lib/python2.7/site-packages/PisiYap/lang', langs),\
-         ('share/pixmaps',      ['icons/pisiyap.png'])]
+         ('lib/python2.7/site-packages/PisiYap/lang', langs)]
 
 setup(name = "PiSiYap",
       version = "0.2",

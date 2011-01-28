@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'pisiyap.ui'
 #
-# Created: Fri Jan 28 18:42:16 2011
+# Created: Fri Jan 28 22:03:45 2011
 #      by: PyQt4 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -17,7 +17,7 @@ except AttributeError:
 class Ui_Pisiyap(object):
     def setupUi(self, Pisiyap):
         Pisiyap.setObjectName(_fromUtf8("Pisiyap"))
-        Pisiyap.resize(682, 320)
+        Pisiyap.resize(682, 323)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -52,6 +52,8 @@ class Ui_Pisiyap(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_15.sizePolicy().hasHeightForWidth())
         self.label_15.setSizePolicy(sizePolicy)
+        self.label_15.setText(_fromUtf8(""))
+        self.label_15.setPixmap(QtGui.QPixmap(_fromUtf8(":/pisiyap.svg")))
         self.label_15.setObjectName(_fromUtf8("label_15"))
         self.horizontalLayout_2.addWidget(self.label_15)
         self.label_10 = QtGui.QLabel(self.tab)
@@ -73,6 +75,8 @@ class Ui_Pisiyap(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_14.sizePolicy().hasHeightForWidth())
         self.label_14.setSizePolicy(sizePolicy)
+        self.label_14.setText(_fromUtf8(""))
+        self.label_14.setPixmap(QtGui.QPixmap(_fromUtf8(":/pisiyap.svg")))
         self.label_14.setObjectName(_fromUtf8("label_14"))
         self.horizontalLayout_2.addWidget(self.label_14)
         self.gridLayout_5.addLayout(self.horizontalLayout_2, 0, 0, 1, 1)
@@ -109,6 +113,9 @@ class Ui_Pisiyap(object):
         font.setWeight(50)
         font.setBold(False)
         self.brwsBut.setFont(font)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(_fromUtf8(":/openFolder.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.brwsBut.setIcon(icon1)
         self.brwsBut.setObjectName(_fromUtf8("brwsBut"))
         self.gridLayout_2.addWidget(self.brwsBut, 0, 0, 1, 1)
         self._pkgerName = QtGui.QLabel(self.tab)
@@ -174,6 +181,9 @@ class Ui_Pisiyap(object):
         font.setWeight(50)
         font.setBold(False)
         self.cancelBut.setFont(font)
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(_fromUtf8(":/cancel.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.cancelBut.setIcon(icon2)
         self.cancelBut.setObjectName(_fromUtf8("cancelBut"))
         self.gridLayout_3.addWidget(self.cancelBut, 0, 1, 1, 1)
         self.creatConfig = QtGui.QPushButton(self.tab)
@@ -188,13 +198,18 @@ class Ui_Pisiyap(object):
         font.setWeight(50)
         font.setBold(False)
         self.creatConfig.setFont(font)
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(_fromUtf8(":/ok.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.creatConfig.setIcon(icon3)
         self.creatConfig.setObjectName(_fromUtf8("creatConfig"))
         self.gridLayout_3.addWidget(self.creatConfig, 0, 2, 1, 1)
         spacerItem1 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.gridLayout_3.addItem(spacerItem1, 0, 0, 1, 1)
         self.verticalLayout_2.addLayout(self.gridLayout_3)
         self.gridLayout_5.addLayout(self.verticalLayout_2, 2, 0, 1, 1)
-        self.pisiyapTab.addTab(self.tab, _fromUtf8(""))
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap(_fromUtf8(":/config.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pisiyapTab.addTab(self.tab, icon4, _fromUtf8(""))
         self.tab_2 = QtGui.QWidget()
         self.tab_2.setObjectName(_fromUtf8("tab_2"))
         self.gridLayout_31 = QtGui.QGridLayout(self.tab_2)
@@ -229,6 +244,9 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.brwsBut_.sizePolicy().hasHeightForWidth())
         self.brwsBut_.setSizePolicy(sizePolicy)
         self.brwsBut_.setMinimumSize(QtCore.QSize(120, 27))
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap(_fromUtf8(":/openFile.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.brwsBut_.setIcon(icon5)
         self.brwsBut_.setObjectName(_fromUtf8("brwsBut_"))
         self.horizontalLayout.addWidget(self.brwsBut_)
         self.brwsLine_ = QtGui.QLineEdit(self.tab_2)
@@ -347,6 +365,9 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.backBut.sizePolicy().hasHeightForWidth())
         self.backBut.setSizePolicy(sizePolicy)
         self.backBut.setMaximumSize(QtCore.QSize(80, 27))
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap(_fromUtf8(":/go-previous.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.backBut.setIcon(icon6)
         self.backBut.setObjectName(_fromUtf8("backBut"))
         self.gridLayout_33.addWidget(self.backBut, 0, 1, 1, 1)
         self.nextBut = QtGui.QPushButton(self.tab_2)
@@ -356,6 +377,9 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.nextBut.sizePolicy().hasHeightForWidth())
         self.nextBut.setSizePolicy(sizePolicy)
         self.nextBut.setMaximumSize(QtCore.QSize(80, 27))
+        icon7 = QtGui.QIcon()
+        icon7.addPixmap(QtGui.QPixmap(_fromUtf8(":/go-next.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.nextBut.setIcon(icon7)
         self.nextBut.setCheckable(False)
         self.nextBut.setObjectName(_fromUtf8("nextBut"))
         self.gridLayout_33.addWidget(self.nextBut, 0, 2, 1, 1)
@@ -363,7 +387,7 @@ class Ui_Pisiyap(object):
         self.gridLayout_33.addItem(spacerItem8, 0, 0, 1, 1)
         self.verticalLayout.addLayout(self.gridLayout_33)
         self.gridLayout_31.addLayout(self.verticalLayout, 4, 0, 1, 1)
-        self.pisiyapTab.addTab(self.tab_2, _fromUtf8(""))
+        self.pisiyapTab.addTab(self.tab_2, icon5, _fromUtf8(""))
         self.tab_3 = QtGui.QWidget()
         self.tab_3.setObjectName(_fromUtf8("tab_3"))
         self.gridLayout_15 = QtGui.QGridLayout(self.tab_3)
@@ -477,6 +501,7 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.backBut_1.sizePolicy().hasHeightForWidth())
         self.backBut_1.setSizePolicy(sizePolicy)
         self.backBut_1.setMaximumSize(QtCore.QSize(80, 27))
+        self.backBut_1.setIcon(icon6)
         self.backBut_1.setObjectName(_fromUtf8("backBut_1"))
         self.gridLayout_14.addWidget(self.backBut_1, 0, 1, 1, 1)
         self.nextBut_1 = QtGui.QPushButton(self.tab_3)
@@ -486,12 +511,15 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.nextBut_1.sizePolicy().hasHeightForWidth())
         self.nextBut_1.setSizePolicy(sizePolicy)
         self.nextBut_1.setMaximumSize(QtCore.QSize(80, 27))
+        self.nextBut_1.setIcon(icon7)
         self.nextBut_1.setObjectName(_fromUtf8("nextBut_1"))
         self.gridLayout_14.addWidget(self.nextBut_1, 0, 2, 1, 1)
         spacerItem13 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.gridLayout_14.addItem(spacerItem13, 0, 0, 1, 1)
         self.gridLayout_15.addLayout(self.gridLayout_14, 1, 0, 1, 1)
-        self.pisiyapTab.addTab(self.tab_3, _fromUtf8(""))
+        icon8 = QtGui.QIcon()
+        icon8.addPixmap(QtGui.QPixmap(_fromUtf8(":/package.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pisiyapTab.addTab(self.tab_3, icon8, _fromUtf8(""))
         self.tab_4 = QtGui.QWidget()
         self.tab_4.setObjectName(_fromUtf8("tab_4"))
         self.gridLayout_17 = QtGui.QGridLayout(self.tab_4)
@@ -632,6 +660,7 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.backBut_2.sizePolicy().hasHeightForWidth())
         self.backBut_2.setSizePolicy(sizePolicy)
         self.backBut_2.setMaximumSize(QtCore.QSize(80, 27))
+        self.backBut_2.setIcon(icon6)
         self.backBut_2.setObjectName(_fromUtf8("backBut_2"))
         self.gridLayout_13.addWidget(self.backBut_2, 0, 1, 1, 1)
         self.nextBut_2 = QtGui.QPushButton(self.tab_4)
@@ -641,12 +670,15 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.nextBut_2.sizePolicy().hasHeightForWidth())
         self.nextBut_2.setSizePolicy(sizePolicy)
         self.nextBut_2.setMaximumSize(QtCore.QSize(80, 27))
+        self.nextBut_2.setIcon(icon7)
         self.nextBut_2.setObjectName(_fromUtf8("nextBut_2"))
         self.gridLayout_13.addWidget(self.nextBut_2, 0, 2, 1, 1)
         spacerItem17 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.gridLayout_13.addItem(spacerItem17, 0, 0, 1, 1)
         self.gridLayout_17.addLayout(self.gridLayout_13, 3, 0, 1, 1)
-        self.pisiyapTab.addTab(self.tab_4, _fromUtf8(""))
+        icon9 = QtGui.QIcon()
+        icon9.addPixmap(QtGui.QPixmap(_fromUtf8(":/pspec.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pisiyapTab.addTab(self.tab_4, icon9, _fromUtf8(""))
         self.tab_5 = QtGui.QWidget()
         self.tab_5.setObjectName(_fromUtf8("tab_5"))
         self.gridLayout_19 = QtGui.QGridLayout(self.tab_5)
@@ -710,6 +742,7 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.backBut_3.sizePolicy().hasHeightForWidth())
         self.backBut_3.setSizePolicy(sizePolicy)
         self.backBut_3.setMaximumSize(QtCore.QSize(80, 27))
+        self.backBut_3.setIcon(icon6)
         self.backBut_3.setObjectName(_fromUtf8("backBut_3"))
         self.gridLayout_10.addWidget(self.backBut_3, 0, 2, 1, 1)
         self.nextBut_3 = QtGui.QPushButton(self.tab_5)
@@ -719,12 +752,15 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.nextBut_3.sizePolicy().hasHeightForWidth())
         self.nextBut_3.setSizePolicy(sizePolicy)
         self.nextBut_3.setMaximumSize(QtCore.QSize(80, 27))
+        self.nextBut_3.setIcon(icon7)
         self.nextBut_3.setObjectName(_fromUtf8("nextBut_3"))
         self.gridLayout_10.addWidget(self.nextBut_3, 0, 3, 1, 1)
         spacerItem26 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.gridLayout_10.addItem(spacerItem26, 0, 1, 1, 1)
         self.gridLayout_19.addLayout(self.gridLayout_10, 5, 0, 1, 1)
-        self.pisiyapTab.addTab(self.tab_5, _fromUtf8(""))
+        icon10 = QtGui.QIcon()
+        icon10.addPixmap(QtGui.QPixmap(_fromUtf8(":/actions.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pisiyapTab.addTab(self.tab_5, icon10, _fromUtf8(""))
         self.tab_6 = QtGui.QWidget()
         self.tab_6.setObjectName(_fromUtf8("tab_6"))
         self.gridLayout_23 = QtGui.QGridLayout(self.tab_6)
@@ -797,6 +833,7 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.backBut_4.sizePolicy().hasHeightForWidth())
         self.backBut_4.setSizePolicy(sizePolicy)
         self.backBut_4.setMaximumSize(QtCore.QSize(80, 27))
+        self.backBut_4.setIcon(icon6)
         self.backBut_4.setObjectName(_fromUtf8("backBut_4"))
         self.gridLayout_20.addWidget(self.backBut_4, 0, 2, 1, 1)
         spacerItem35 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
@@ -808,6 +845,7 @@ class Ui_Pisiyap(object):
         sizePolicy.setHeightForWidth(self.nextBut_4.sizePolicy().hasHeightForWidth())
         self.nextBut_4.setSizePolicy(sizePolicy)
         self.nextBut_4.setMaximumSize(QtCore.QSize(80, 27))
+        self.nextBut_4.setIcon(icon3)
         self.nextBut_4.setObjectName(_fromUtf8("nextBut_4"))
         self.gridLayout_20.addWidget(self.nextBut_4, 0, 3, 1, 1)
         self.openDirectory = QtGui.QCheckBox(self.tab_6)
@@ -819,7 +857,9 @@ class Ui_Pisiyap(object):
         self.openDirectory.setObjectName(_fromUtf8("openDirectory"))
         self.gridLayout_20.addWidget(self.openDirectory, 0, 0, 1, 1)
         self.gridLayout_23.addLayout(self.gridLayout_20, 5, 0, 1, 1)
-        self.pisiyapTab.addTab(self.tab_6, _fromUtf8(""))
+        icon11 = QtGui.QIcon()
+        icon11.addPixmap(QtGui.QPixmap(_fromUtf8(":/files.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pisiyapTab.addTab(self.tab_6, icon11, _fromUtf8(""))
         self.tab_7 = QtGui.QWidget()
         self.tab_7.setObjectName(_fromUtf8("tab_7"))
         self.gridLayout_27 = QtGui.QGridLayout(self.tab_7)
@@ -832,6 +872,8 @@ class Ui_Pisiyap(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_16.sizePolicy().hasHeightForWidth())
         self.label_16.setSizePolicy(sizePolicy)
+        self.label_16.setText(_fromUtf8(""))
+        self.label_16.setPixmap(QtGui.QPixmap(_fromUtf8(":/pisiyap.svg")))
         self.label_16.setObjectName(_fromUtf8("label_16"))
         self.gridLayout_26.addWidget(self.label_16, 0, 0, 1, 1)
         self.label_17 = QtGui.QLabel(self.tab_7)
@@ -840,6 +882,8 @@ class Ui_Pisiyap(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_17.sizePolicy().hasHeightForWidth())
         self.label_17.setSizePolicy(sizePolicy)
+        self.label_17.setText(_fromUtf8(""))
+        self.label_17.setPixmap(QtGui.QPixmap(_fromUtf8(":/pisiyap.svg")))
         self.label_17.setObjectName(_fromUtf8("label_17"))
         self.gridLayout_26.addWidget(self.label_17, 0, 2, 1, 1)
         self.label_11 = QtGui.QLabel(self.tab_7)
@@ -937,17 +981,7 @@ class Ui_Pisiyap(object):
 
     def retranslateUi(self, Pisiyap):
         Pisiyap.setWindowTitle(QtGui.QApplication.translate("Pisiyap", "PiSiYap - PiSi Source File Creator", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_15.setText(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/pisiyap.svg\" /></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_10.setText(QtGui.QApplication.translate("Pisiyap", "PiSiYap", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_14.setText(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/pisiyap.svg\" /></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_2.setText(QtGui.QApplication.translate("Pisiyap", "Select a directory where you would like to store PiSi source files", None, QtGui.QApplication.UnicodeUTF8))
         self.brwsBut.setText(QtGui.QApplication.translate("Pisiyap", "Browse", None, QtGui.QApplication.UnicodeUTF8))
         self._pkgerName.setText(QtGui.QApplication.translate("Pisiyap", "Packager Name   ", None, QtGui.QApplication.UnicodeUTF8))
@@ -1178,16 +1212,6 @@ class Ui_Pisiyap(object):
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Serif\'; font-size:10pt; font-weight:400;\">Opens the directory which contains pisi source files generated by this program</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.openDirectory.setText(QtGui.QApplication.translate("Pisiyap", "Open files directory after creation?", None, QtGui.QApplication.UnicodeUTF8))
         self.pisiyapTab.setTabText(self.pisiyapTab.indexOf(self.tab_6), QtGui.QApplication.translate("Pisiyap", "Files", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_16.setText(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/pisiyap.svg\" /></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_17.setText(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/pisiyap.svg\" /></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_11.setText(QtGui.QApplication.translate("Pisiyap", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -1197,7 +1221,7 @@ class Ui_Pisiyap(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Droid Sans\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600;\">version 0.1</span></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600;\">version 0.2</span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600;\">Authors:</span><span style=\" font-family:\'Serif\';\"> Murat Şenel, Anıl Özbek</span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Serif\';\">  </span><span style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600;\">Art:</span><span style=\" font-family:\'Serif\';\"> Serdar Soytetir, Murat Şenel, Banu Önal</span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Serif\';\">  </span><span style=\" font-family:\'Serif\'; font-size:10pt; font-weight:600;\">Test:</span><span style=\" font-family:\'Serif\';\"> Kenan Pelit, Serdar Soytetir, Mehmet Nur Olcay, H. İbrahim Güngör</span></p>\n"

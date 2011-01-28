@@ -16,6 +16,10 @@
   <property name="windowTitle">
    <string>PiSiYap - Finished!</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="../icons/pisiyapicon.qrc">
+    <normaloff>:/pisiyap.svg</normaloff>:/pisiyap.svg</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true"/>
   </property>
@@ -68,6 +72,10 @@
        <property name="text">
         <string>Ok</string>
        </property>
+       <property name="icon">
+        <iconset resource="../icons/pisiyapicon.qrc">
+         <normaloff>:/ok.svg</normaloff>:/ok.svg</iconset>
+       </property>
       </widget>
      </item>
      <item>
@@ -87,7 +95,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../icons/pisiyapicon.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>pushButton</sender>

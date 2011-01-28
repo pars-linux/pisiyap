@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'warning.ui'
 #
-# Created: Wed Jan 19 12:53:25 2011
+# Created: Fri Jan 28 21:53:27 2011
 #      by: PyQt4 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -19,6 +19,9 @@ class Ui_Warning(object):
         Warning.setObjectName(_fromUtf8("Warning"))
         Warning.setWindowModality(QtCore.Qt.WindowModal)
         Warning.resize(540, 137)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(_fromUtf8(":/pisiyap.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        Warning.setWindowIcon(icon)
         self.gridLayout = QtGui.QGridLayout(Warning)
         self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
         self.label = QtGui.QLabel(Warning)
@@ -38,6 +41,7 @@ class Ui_Warning(object):
         self.warnings.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setWeight(50)
+        font.setItalic(False)
         font.setBold(False)
         self.warnings.setFont(font)
         self.warnings.setTextFormat(QtCore.Qt.PlainText)
@@ -65,6 +69,9 @@ class Ui_Warning(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
         self.pushButton.setSizePolicy(sizePolicy)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(_fromUtf8(":/ok.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton.setIcon(icon1)
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
         self.horizontalLayout.addWidget(self.pushButton)
         spacerItem1 = QtGui.QSpacerItem(232, 25, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
@@ -86,3 +93,4 @@ class Ui_Warning(object):
         self.label_2.setText(QtGui.QApplication.translate("Warning", "Please, continue after filling in these fields!", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton.setText(QtGui.QApplication.translate("Warning", "Ok", None, QtGui.QApplication.UnicodeUTF8))
 
+import pisiyapicon_rc
