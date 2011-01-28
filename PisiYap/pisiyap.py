@@ -76,7 +76,7 @@ class PisiYap(QtGui.QMainWindow):
         return unicode(config[int].strip())
 
     def selectDir(self):
-        directory = QtGui.QFileDialog.getExistingDirectory(None, "Choose a directory to store PiSi packages")
+        directory = QtGui.QFileDialog.getExistingDirectory(None, self.trUtf8("Choose a directory to store PiSi packages"))
         self.ui.brwsLine.setText(directory)
 
     def packageDir(self):
