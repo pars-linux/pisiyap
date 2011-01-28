@@ -52,6 +52,10 @@
        <bool>false</bool>
       </property>
       <widget class="QWidget" name="tab">
+       <attribute name="icon">
+        <iconset resource="../icons/pisiyapicon.qrc">
+         <normaloff>:/config.svg</normaloff>:/config.svg</iconset>
+       </attribute>
        <attribute name="title">
         <string>Config</string>
        </attribute>
@@ -67,11 +71,10 @@
              </sizepolicy>
             </property>
             <property name="text">
-             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Serif'; font-size:10pt; font-weight:600; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/pisiyap.svg&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="../icons/pisiyapicon.qrc">:/pisiyap.svg</pixmap>
             </property>
            </widget>
           </item>
@@ -104,11 +107,10 @@ p, li { white-space: pre-wrap; }
              </sizepolicy>
             </property>
             <property name="text">
-             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Serif'; font-size:10pt; font-weight:600; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/pisiyap.svg&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="../icons/pisiyapicon.qrc">:/pisiyap.svg</pixmap>
             </property>
            </widget>
           </item>
@@ -176,6 +178,10 @@ p, li { white-space: pre-wrap; }
               </property>
               <property name="text">
                <string>Browse</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../icons/pisiyapicon.qrc">
+                <normaloff>:/openFolder.svg</normaloff>:/openFolder.svg</iconset>
               </property>
              </widget>
             </item>
@@ -301,6 +307,10 @@ p, li { white-space: pre-wrap; }
               <property name="text">
                <string>Cancel</string>
               </property>
+              <property name="icon">
+               <iconset resource="../icons/pisiyapicon.qrc">
+                <normaloff>:/cancel.svg</normaloff>:/cancel.svg</iconset>
+              </property>
              </widget>
             </item>
             <item row="0" column="2">
@@ -332,6 +342,10 @@ p, li { white-space: pre-wrap; }
               <property name="text">
                <string>Ok</string>
               </property>
+              <property name="icon">
+               <iconset resource="../icons/pisiyapicon.qrc">
+                <normaloff>:/ok.svg</normaloff>:/ok.svg</iconset>
+              </property>
              </widget>
             </item>
             <item row="0" column="0">
@@ -354,6 +368,10 @@ p, li { white-space: pre-wrap; }
        </layout>
       </widget>
       <widget class="QWidget" name="tab_2">
+       <attribute name="icon">
+        <iconset resource="../icons/pisiyapicon.qrc">
+         <normaloff>:/openFile.svg</normaloff>:/openFile.svg</iconset>
+       </attribute>
        <attribute name="title">
         <string>Archive</string>
        </attribute>
@@ -432,6 +450,10 @@ p, li { white-space: pre-wrap; }
               </property>
               <property name="text">
                <string>Browse</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../icons/pisiyapicon.qrc">
+                <normaloff>:/openFile.svg</normaloff>:/openFile.svg</iconset>
               </property>
              </widget>
             </item>
@@ -689,6 +711,10 @@ p, li { white-space: pre-wrap; }
               <property name="text">
                <string>Back</string>
               </property>
+              <property name="icon">
+               <iconset resource="../icons/pisiyapicon.qrc">
+                <normaloff>:/go-previous.svg</normaloff>:/go-previous.svg</iconset>
+              </property>
              </widget>
             </item>
             <item row="0" column="2">
@@ -707,6 +733,10 @@ p, li { white-space: pre-wrap; }
               </property>
               <property name="text">
                <string>Next</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../icons/pisiyapicon.qrc">
+                <normaloff>:/go-next.svg</normaloff>:/go-next.svg</iconset>
               </property>
               <property name="checkable">
                <bool>false</bool>
@@ -733,6 +763,10 @@ p, li { white-space: pre-wrap; }
        </layout>
       </widget>
       <widget class="QWidget" name="tab_3">
+       <attribute name="icon">
+        <iconset resource="../icons/pisiyapicon.qrc">
+         <normaloff>:/package.svg</normaloff>:/package.svg</iconset>
+       </attribute>
        <attribute name="title">
         <string>Package</string>
        </attribute>
@@ -993,6 +1027,10 @@ p, li { white-space: pre-wrap; }
             <property name="text">
              <string>Back</string>
             </property>
+            <property name="icon">
+             <iconset resource="../icons/pisiyapicon.qrc">
+              <normaloff>:/go-previous.svg</normaloff>:/go-previous.svg</iconset>
+            </property>
            </widget>
           </item>
           <item row="0" column="2">
@@ -1011,6 +1049,10 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="text">
              <string>Next</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../icons/pisiyapicon.qrc">
+              <normaloff>:/go-next.svg</normaloff>:/go-next.svg</iconset>
             </property>
            </widget>
           </item>
@@ -1032,6 +1074,10 @@ p, li { white-space: pre-wrap; }
        </layout>
       </widget>
       <widget class="QWidget" name="tab_4">
+       <attribute name="icon">
+        <iconset resource="../icons/pisiyapicon.qrc">
+         <normaloff>:/pspec.svg</normaloff>:/pspec.svg</iconset>
+       </attribute>
        <attribute name="title">
         <string>pspec.xml</string>
        </attribute>
@@ -1413,6 +1459,10 @@ p, li { white-space: pre-wrap; }
             <property name="text">
              <string>Back</string>
             </property>
+            <property name="icon">
+             <iconset resource="../icons/pisiyapicon.qrc">
+              <normaloff>:/go-previous.svg</normaloff>:/go-previous.svg</iconset>
+            </property>
            </widget>
           </item>
           <item row="0" column="2">
@@ -1431,6 +1481,10 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="text">
              <string>Next</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../icons/pisiyapicon.qrc">
+              <normaloff>:/go-next.svg</normaloff>:/go-next.svg</iconset>
             </property>
            </widget>
           </item>
@@ -1452,6 +1506,10 @@ p, li { white-space: pre-wrap; }
        </layout>
       </widget>
       <widget class="QWidget" name="tab_5">
+       <attribute name="icon">
+        <iconset resource="../icons/pisiyapicon.qrc">
+         <normaloff>:/actions.svg</normaloff>:/actions.svg</iconset>
+       </attribute>
        <attribute name="title">
         <string>actions.py</string>
        </attribute>
@@ -1694,6 +1752,10 @@ p, li { white-space: pre-wrap; }
             <property name="text">
              <string>Back</string>
             </property>
+            <property name="icon">
+             <iconset resource="../icons/pisiyapicon.qrc">
+              <normaloff>:/go-previous.svg</normaloff>:/go-previous.svg</iconset>
+            </property>
            </widget>
           </item>
           <item row="0" column="3">
@@ -1712,6 +1774,10 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="text">
              <string>Next</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../icons/pisiyapicon.qrc">
+              <normaloff>:/go-next.svg</normaloff>:/go-next.svg</iconset>
             </property>
            </widget>
           </item>
@@ -1733,6 +1799,10 @@ p, li { white-space: pre-wrap; }
        </layout>
       </widget>
       <widget class="QWidget" name="tab_6">
+       <attribute name="icon">
+        <iconset resource="../icons/pisiyapicon.qrc">
+         <normaloff>:/files.svg</normaloff>:/files.svg</iconset>
+       </attribute>
        <attribute name="title">
         <string>Files</string>
        </attribute>
@@ -1972,6 +2042,10 @@ p, li { white-space: pre-wrap; }
             <property name="text">
              <string>Back</string>
             </property>
+            <property name="icon">
+             <iconset resource="../icons/pisiyapicon.qrc">
+              <normaloff>:/go-previous.svg</normaloff>:/go-previous.svg</iconset>
+            </property>
            </widget>
           </item>
           <item row="0" column="1">
@@ -2010,6 +2084,10 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="text">
              <string>Create</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../icons/pisiyapicon.qrc">
+              <normaloff>:/ok.svg</normaloff>:/ok.svg</iconset>
             </property>
            </widget>
           </item>
@@ -2059,11 +2137,10 @@ p, li { white-space: pre-wrap; }
              </sizepolicy>
             </property>
             <property name="text">
-             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Serif'; font-size:10pt; font-weight:600; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/pisiyap.svg&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="../icons/pisiyapicon.qrc">:/pisiyap.svg</pixmap>
             </property>
            </widget>
           </item>
@@ -2076,11 +2153,10 @@ p, li { white-space: pre-wrap; }
              </sizepolicy>
             </property>
             <property name="text">
-             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Serif'; font-size:10pt; font-weight:600; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/pisiyap.svg&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="../icons/pisiyapicon.qrc">:/pisiyap.svg</pixmap>
             </property>
            </widget>
           </item>

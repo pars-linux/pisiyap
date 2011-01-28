@@ -1,6 +1,17 @@
-<!DOCTYPE RCC><RCC version="1.0">
-<qresource>
+<RCC>
+  <qresource>
+    <file>files.svg</file>
+    <file>actions.svg</file>
+    <file>pspec.svg</file>
+    <file>package.svg</file>
+    <file>openFile.svg</file>
+    <file>cancel.svg</file>
+    <file>config.svg</file>
+    <file>go-next.svg</file>
+    <file>go-previous.svg</file>
+    <file>ok.svg</file>
+    <file>openFolder.svg</file>
     <file>pisiyap.svg</file>
     <file>gplv3.png</file>
-</qresource>
+  </qresource>
 </RCC>
