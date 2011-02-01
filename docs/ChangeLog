@@ -1,2 +1,8 @@
 * Version 0.1
   - First release
+
+* Version 0.2
+  - Icons for all tabs
+  - Complete Turkish translation
+  - Fixed button layout and tab order
+  - Better templates (Issue 3)
