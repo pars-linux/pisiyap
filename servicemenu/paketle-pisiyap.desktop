@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Type=Service
 X-KDE-Priority=TopLevel
-X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/x-gzip,application/x-tar,application/x-tgz,application/x-tbz,application/x-zip,application/x-bzip,application/x-rar,application/x-tarz,application/x-archive,application/x-bzip-compressed-tar,application/x-compressed-tar
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/x-bzip-compressed-tar,application/x-compressed-tar,application/x-gzip,application/x-tar,application/x-tgz,application/x-tbz,application/zip,application/x-bzip,application/x-rar,application/x-tarz,application/x-archive,application/x-bzip,application/x-xz-compressed-tar
 X-KDE-ExcludeServiceTypes=kdedevice/*
 Actions=CreatePisi
 X-KDE-Submenu=Pack
