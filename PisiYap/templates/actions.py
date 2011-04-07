@@ -42,7 +42,7 @@ from pisi.actionsapi import pisitools
 from pisi.actionsapi import get
 
 def setup():
-    cmaketools.configure("-DCMAKE_BUILD_TYPE=release", installPrefix="/usr")
+    cmaketools.configure()
 
 def build():
     cmaketools.make()
