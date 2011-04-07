@@ -14,7 +14,6 @@ Type=Application
 Version=1.0
 Encoding=UTF-8
 Name=%(packageName)s
-Name[tr]=%(packageName)s
 GenericName=%(packageName)s
 GenericName[tr]=%(packageName)s
 Comment=%(summary)s
