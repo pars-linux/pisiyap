@@ -90,7 +90,7 @@ class PisiYap(QtGui.QMainWindow):
     def copyArchive(self):
         sourceFile = self.ui.brwsLine_.text()
         if sourceFile and self.ui.copyArchive.isChecked():
-            Popen(['/usr/bin/xdg-su', '-u', 'root', '-c', '/bin/cp "%s" /var/cache/pisi/archives' % sourceFile])
+            Popen(['/usr/bin/xdg-su', '-u', 'root', '-c', '/bin/mkdir -p /var/cache/pisi/archives && /bin/cp "%s" /var/cache/pisi/archives/' % sourceFile])
 
     def homePage(self):
         homePage = str(self.ui.homePage.text())
