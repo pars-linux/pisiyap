@@ -4,17 +4,17 @@
 <context>
     <name>FinishDialog</name>
     <message>
-        <location filename="finished.ui" line="17"/>
+        <location filename="ui/finished.ui" line="17"/>
         <source>PiSiYap - Finished!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="finished.ui" line="39"/>
+        <location filename="ui/finished.ui" line="39"/>
         <source>PiSi source files successfully created.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="finished.ui" line="73"/>
+        <location filename="ui/finished.ui" line="73"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
@@ -22,46 +22,46 @@
 <context>
     <name>Pisiyap</name>
     <message>
-        <location filename="pisiyap.ui" line="26"/>
+        <location filename="ui/pisiyap.ui" line="26"/>
         <source>PiSiYap - PiSi Source File Creator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="60"/>
+        <location filename="ui/pisiyap.ui" line="60"/>
         <source>Config</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="98"/>
-        <location filename="pisiyap.ui" line="2185"/>
+        <location filename="ui/pisiyap.ui" line="98"/>
+        <location filename="ui/pisiyap.ui" line="2185"/>
         <source>PiSiYaP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="137"/>
+        <location filename="ui/pisiyap.ui" line="137"/>
         <source>Select a directory where you would like to store PiSi source files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="181"/>
-        <location filename="pisiyap.ui" line="453"/>
+        <location filename="ui/pisiyap.ui" line="181"/>
+        <location filename="ui/pisiyap.ui" line="453"/>
         <source>Browse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="204"/>
-        <location filename="pisiyap.ui" line="921"/>
+        <location filename="ui/pisiyap.ui" line="204"/>
+        <location filename="ui/pisiyap.ui" line="921"/>
         <source>Packager Name   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="223"/>
-        <location filename="pisiyap.ui" line="940"/>
+        <location filename="ui/pisiyap.ui" line="223"/>
+        <location filename="ui/pisiyap.ui" line="940"/>
         <source>Packager E-mail  </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="236"/>
+        <location filename="ui/pisiyap.ui" line="236"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -70,8 +70,8 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="253"/>
-        <location filename="pisiyap.ui" line="970"/>
+        <location filename="ui/pisiyap.ui" line="253"/>
+        <location filename="ui/pisiyap.ui" line="970"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -80,8 +80,8 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="270"/>
-        <location filename="pisiyap.ui" line="987"/>
+        <location filename="ui/pisiyap.ui" line="270"/>
+        <location filename="ui/pisiyap.ui" line="987"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -90,22 +90,22 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="309"/>
+        <location filename="ui/pisiyap.ui" line="309"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="344"/>
+        <location filename="ui/pisiyap.ui" line="344"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="377"/>
+        <location filename="ui/pisiyap.ui" line="377"/>
         <source>Archive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="412"/>
+        <location filename="ui/pisiyap.ui" line="412"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -115,7 +115,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="470"/>
+        <location filename="ui/pisiyap.ui" line="470"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -124,22 +124,22 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="512"/>
+        <location filename="ui/pisiyap.ui" line="512"/>
         <source>   Check, if you want to copy the archive file into PiSi archive directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="570"/>
+        <location filename="ui/pisiyap.ui" line="570"/>
         <source>Archive Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="583"/>
+        <location filename="ui/pisiyap.ui" line="583"/>
         <source>Package Version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="596"/>
+        <location filename="ui/pisiyap.ui" line="596"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -148,7 +148,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="613"/>
+        <location filename="ui/pisiyap.ui" line="613"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -157,7 +157,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="630"/>
+        <location filename="ui/pisiyap.ui" line="630"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -166,12 +166,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="650"/>
+        <location filename="ui/pisiyap.ui" line="650"/>
         <source>Home Page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="669"/>
+        <location filename="ui/pisiyap.ui" line="669"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -180,7 +180,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="686"/>
+        <location filename="ui/pisiyap.ui" line="686"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -189,34 +189,34 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="713"/>
-        <location filename="pisiyap.ui" line="1029"/>
-        <location filename="pisiyap.ui" line="1461"/>
-        <location filename="pisiyap.ui" line="1754"/>
-        <location filename="pisiyap.ui" line="2044"/>
+        <location filename="ui/pisiyap.ui" line="713"/>
+        <location filename="ui/pisiyap.ui" line="1029"/>
+        <location filename="ui/pisiyap.ui" line="1461"/>
+        <location filename="ui/pisiyap.ui" line="1754"/>
+        <location filename="ui/pisiyap.ui" line="2044"/>
         <source>Back</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="736"/>
-        <location filename="pisiyap.ui" line="1052"/>
-        <location filename="pisiyap.ui" line="1484"/>
-        <location filename="pisiyap.ui" line="1777"/>
+        <location filename="ui/pisiyap.ui" line="736"/>
+        <location filename="ui/pisiyap.ui" line="1052"/>
+        <location filename="ui/pisiyap.ui" line="1484"/>
+        <location filename="ui/pisiyap.ui" line="1777"/>
         <source>Next</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="772"/>
+        <location filename="ui/pisiyap.ui" line="772"/>
         <source>Package</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="807"/>
+        <location filename="ui/pisiyap.ui" line="807"/>
         <source>Package Name    </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="820"/>
+        <location filename="ui/pisiyap.ui" line="820"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -225,18 +225,18 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="861"/>
+        <location filename="ui/pisiyap.ui" line="861"/>
         <source>If you would like to change the package name,
 please define it below:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="902"/>
+        <location filename="ui/pisiyap.ui" line="902"/>
         <source>New Package Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="953"/>
+        <location filename="ui/pisiyap.ui" line="953"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -245,22 +245,22 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1083"/>
+        <location filename="ui/pisiyap.ui" line="1083"/>
         <source>pspec.xml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1120"/>
+        <location filename="ui/pisiyap.ui" line="1120"/>
         <source>License</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1139"/>
+        <location filename="ui/pisiyap.ui" line="1139"/>
         <source>IsA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1152"/>
+        <location filename="ui/pisiyap.ui" line="1152"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -269,52 +269,52 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1165"/>
+        <location filename="ui/pisiyap.ui" line="1165"/>
         <source>GPLv1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1170"/>
+        <location filename="ui/pisiyap.ui" line="1170"/>
         <source>GPLv2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1175"/>
+        <location filename="ui/pisiyap.ui" line="1175"/>
         <source>GPLv3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1180"/>
+        <location filename="ui/pisiyap.ui" line="1180"/>
         <source>LGPLv2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1185"/>
+        <location filename="ui/pisiyap.ui" line="1185"/>
         <source>LGPLv2.1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1190"/>
+        <location filename="ui/pisiyap.ui" line="1190"/>
         <source>LGPLv3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1195"/>
+        <location filename="ui/pisiyap.ui" line="1195"/>
         <source>BSD</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1200"/>
+        <location filename="ui/pisiyap.ui" line="1200"/>
         <source>MIT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1205"/>
+        <location filename="ui/pisiyap.ui" line="1205"/>
         <source>as-is</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1219"/>
+        <location filename="ui/pisiyap.ui" line="1219"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -323,72 +323,72 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1232"/>
+        <location filename="ui/pisiyap.ui" line="1232"/>
         <source>app</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1237"/>
+        <location filename="ui/pisiyap.ui" line="1237"/>
         <source>app:console</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1242"/>
+        <location filename="ui/pisiyap.ui" line="1242"/>
         <source>app:gui</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1247"/>
+        <location filename="ui/pisiyap.ui" line="1247"/>
         <source>app:web</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1252"/>
+        <location filename="ui/pisiyap.ui" line="1252"/>
         <source>data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1257"/>
+        <location filename="ui/pisiyap.ui" line="1257"/>
         <source>data:doc</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1262"/>
+        <location filename="ui/pisiyap.ui" line="1262"/>
         <source>data:font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1267"/>
+        <location filename="ui/pisiyap.ui" line="1267"/>
         <source>driver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1272"/>
+        <location filename="ui/pisiyap.ui" line="1272"/>
         <source>library</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1277"/>
+        <location filename="ui/pisiyap.ui" line="1277"/>
         <source>locale</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1282"/>
+        <location filename="ui/pisiyap.ui" line="1282"/>
         <source>kernel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1287"/>
+        <location filename="ui/pisiyap.ui" line="1287"/>
         <source>service</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1320"/>
+        <location filename="ui/pisiyap.ui" line="1320"/>
         <source>New License</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1333"/>
+        <location filename="ui/pisiyap.ui" line="1333"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -397,17 +397,17 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1373"/>
+        <location filename="ui/pisiyap.ui" line="1373"/>
         <source>Summary</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1392"/>
+        <location filename="ui/pisiyap.ui" line="1392"/>
         <source>Description</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1411"/>
+        <location filename="ui/pisiyap.ui" line="1411"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -416,7 +416,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1434"/>
+        <location filename="ui/pisiyap.ui" line="1434"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -425,18 +425,18 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1515"/>
+        <location filename="ui/pisiyap.ui" line="1515"/>
         <source>actions.py</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1542"/>
+        <location filename="ui/pisiyap.ui" line="1542"/>
         <source>Please, select the module
 you would like to use in actions.py</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1573"/>
+        <location filename="ui/pisiyap.ui" line="1573"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -445,12 +445,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1580"/>
+        <location filename="ui/pisiyap.ui" line="1580"/>
         <source>Auto Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1590"/>
+        <location filename="ui/pisiyap.ui" line="1590"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -459,12 +459,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1597"/>
+        <location filename="ui/pisiyap.ui" line="1597"/>
         <source>Qt4 Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1604"/>
+        <location filename="ui/pisiyap.ui" line="1604"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -473,12 +473,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1611"/>
+        <location filename="ui/pisiyap.ui" line="1611"/>
         <source>CMake Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1618"/>
+        <location filename="ui/pisiyap.ui" line="1618"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -487,12 +487,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1625"/>
+        <location filename="ui/pisiyap.ui" line="1625"/>
         <source>KDE4 Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1632"/>
+        <location filename="ui/pisiyap.ui" line="1632"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -501,12 +501,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1639"/>
+        <location filename="ui/pisiyap.ui" line="1639"/>
         <source>Python Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1646"/>
+        <location filename="ui/pisiyap.ui" line="1646"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -515,27 +515,27 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1653"/>
+        <location filename="ui/pisiyap.ui" line="1653"/>
         <source>SCons Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1808"/>
+        <location filename="ui/pisiyap.ui" line="1808"/>
         <source>Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1881"/>
+        <location filename="ui/pisiyap.ui" line="1881"/>
         <source>pspec.xml and actions.py files will be created automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1900"/>
+        <location filename="ui/pisiyap.ui" line="1900"/>
         <source>Click extra files you would like to be created:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1917"/>
+        <location filename="ui/pisiyap.ui" line="1917"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -544,12 +544,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1924"/>
+        <location filename="ui/pisiyap.ui" line="1924"/>
         <source>Create a Desktop file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1934"/>
+        <location filename="ui/pisiyap.ui" line="1934"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -558,12 +558,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1941"/>
+        <location filename="ui/pisiyap.ui" line="1941"/>
         <source>Create a Service Script file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1948"/>
+        <location filename="ui/pisiyap.ui" line="1948"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -572,12 +572,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1955"/>
+        <location filename="ui/pisiyap.ui" line="1955"/>
         <source>Add an Icon tag</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1962"/>
+        <location filename="ui/pisiyap.ui" line="1962"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -586,12 +586,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="1969"/>
+        <location filename="ui/pisiyap.ui" line="1969"/>
         <source>Create a Comar Script file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="2080"/>
+        <location filename="ui/pisiyap.ui" line="2080"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -600,12 +600,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="2087"/>
+        <location filename="ui/pisiyap.ui" line="2087"/>
         <source>Create</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="2104"/>
+        <location filename="ui/pisiyap.ui" line="2104"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -614,17 +614,17 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="2111"/>
+        <location filename="ui/pisiyap.ui" line="2111"/>
         <source>Open files directory after creation?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="pisiyap.ui" line="2128"/>
+        <location filename="ui/pisiyap.ui" line="2128"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
-        <location filename="pisiyap.ui" line="2206"/>
+        <location filename="ui/pisiyap.ui" line="2206"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -640,17 +640,17 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>Warning</name>
     <message>
-        <location filename="warning.ui" line="17"/>
+        <location filename="ui/warning.ui" line="17"/>
         <source>PisiYap - Warning: Empty fields..!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="warning.ui" line="33"/>
+        <location filename="ui/warning.ui" line="33"/>
         <source>Empty Fields:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="warning.ui" line="81"/>
+        <location filename="ui/warning.ui" line="81"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -659,12 +659,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="warning.ui" line="88"/>
+        <location filename="ui/warning.ui" line="88"/>
         <source>Please, continue after filling in these fields!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="warning.ui" line="122"/>
+        <location filename="ui/warning.ui" line="122"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
