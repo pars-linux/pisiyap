@@ -6,7 +6,6 @@
 # http://markmail.org/message/ot7safkmmhf6zqdb
 
 [Desktop Entry]
-Encoding=UTF8
 Type=Service
 X-KDE-Priority=TopLevel
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/x-pisi

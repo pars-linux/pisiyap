@@ -1,10 +1,8 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Type=Application
 Version=1.0
-Encoding=UTF-8
-Name=PiSiYap
-Name[tr]=PiSiYap
+Name=PiSiYaP
+Name[tr]=PiSiYaP
 GenericName=Pisi Source File Creator
 GenericName[tr]=PiSi Kaynak Dosyası Üreticisi
 Icon=pisiyap

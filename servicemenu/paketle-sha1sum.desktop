@@ -5,7 +5,6 @@
 # sha1sum panoya (sha1sum to clipboard) is a service menu which copy sha1sum command output to clipboard
 
 [Desktop Entry]
-Encoding=UTF8
 Type=Service
 X-KDE-Priority=TopLevel
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin,all/allfiles

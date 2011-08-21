@@ -6,7 +6,6 @@
 
 
 [Desktop Entry]
-Encoding=UTF8
 Type=Service
 X-KDE-Priority=TopLevel
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin,application/xml
